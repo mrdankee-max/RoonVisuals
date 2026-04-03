@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "pulsevisuals",
+  "id": "roonvisuals",
   "version": "${version}",
-  "name": "Pulse Visuals",
+  "name": "Roon Visuals",
   "description": "PvP visual effects mod for Minecraft - adds hit particles, target HUD, damage indicators, critical effects, and trajectory prediction",
   "authors": [
     "Your Name"
@@ -15,11 +15,11 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.pulse.visuals.PulseVisualsClient"
+      "com.pulse.visuals.RoonVisualsClient"
     ]
   },
   "mixins": [
-    "pulsevisuals.mixins.json"
+    "roonvisuals.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.9",
